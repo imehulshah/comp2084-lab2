@@ -15,7 +15,7 @@ namespace lab2.Controllers
         }
         public ActionResult Details(String Categories)
         {
-            @ViewBag.Categories = "You selected: " + Categories;
+            @ViewBag.Categories = "You selected Category: " + Categories;
             return View();
 
 
